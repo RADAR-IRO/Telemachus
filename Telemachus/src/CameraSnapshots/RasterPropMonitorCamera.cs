@@ -16,7 +16,8 @@ namespace Telemachus.CameraSnapshots
                 {
                     foreach (PartModule module in part.Modules)
                     {
-                        if (module.moduleName == "JSIExternalCameraSelector")
+                        //LINK - https://github.com/JonnyOThan/RasterPropMonitor/blob/958720c1d9ad2145cacf5f5098d8984682f5e00e/RasterPropMonitor/Auxiliary%20modules/JSIExternalCameraSelector.cs#L25
+                        if (module.moduleName == "JSIExternalCameraSelector")                        
                         {
                             //PluginLogger.debug("GOT MODULE");
                             rpmPartModule = module;

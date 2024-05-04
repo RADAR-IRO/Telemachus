@@ -43,6 +43,7 @@ namespace Telemachus.CameraSnapshots
             return cameraManagerNamePrefix + name;
         }
 
+        //FIXME - "dupliateCam", that can't be right, right ?
         public override void additionalCameraUpdates(Camera dupliateCam, Camera gameCamera)
         {
             base.additionalCameraUpdates(dupliateCam, gameCamera);
